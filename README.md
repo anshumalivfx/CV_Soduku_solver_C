@@ -1,5 +1,10 @@
 # OpenCV_Soduku_solver_C-
 
+Requirements:
+- OpenCV
+- CMake
+- C++
+
 # How to Compile and Run 
  ```bash
     mkdir build
