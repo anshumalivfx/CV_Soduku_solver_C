@@ -79,8 +79,22 @@ build CMakeFiles/OpenCV_Project.dir/main.cpp.o: CXX_COMPILER__OpenCV_Project_Deb
   OBJECT_DIR = CMakeFiles/OpenCV_Project.dir
   OBJECT_FILE_DIR = CMakeFiles/OpenCV_Project.dir
 
-build CMakeFiles/OpenCV_Project.dir/digitrecognizer.cpp.o: CXX_COMPILER__OpenCV_Project_Debug /Users/anshumalikarna/CLionProjects/OpenCV_Project/digitrecognizer.cpp || cmake_object_order_depends_target_OpenCV_Project
-  DEP_FILE = CMakeFiles/OpenCV_Project.dir/digitrecognizer.cpp.o.d
+build CMakeFiles/OpenCV_Project.dir/Image.cpp.o: CXX_COMPILER__OpenCV_Project_Debug /Users/anshumalikarna/CLionProjects/OpenCV_Project/Image.cpp || cmake_object_order_depends_target_OpenCV_Project
+  DEP_FILE = CMakeFiles/OpenCV_Project.dir/Image.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/include/opencv4
+  OBJECT_DIR = CMakeFiles/OpenCV_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenCV_Project.dir
+
+build CMakeFiles/OpenCV_Project.dir/OCR.cpp.o: CXX_COMPILER__OpenCV_Project_Debug /Users/anshumalikarna/CLionProjects/OpenCV_Project/OCR.cpp || cmake_object_order_depends_target_OpenCV_Project
+  DEP_FILE = CMakeFiles/OpenCV_Project.dir/OCR.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/include/opencv4
+  OBJECT_DIR = CMakeFiles/OpenCV_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenCV_Project.dir
+
+build CMakeFiles/OpenCV_Project.dir/Sudoku.cpp.o: CXX_COMPILER__OpenCV_Project_Debug /Users/anshumalikarna/CLionProjects/OpenCV_Project/Sudoku.cpp || cmake_object_order_depends_target_OpenCV_Project
+  DEP_FILE = CMakeFiles/OpenCV_Project.dir/Sudoku.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
   INCLUDES = -isystem /usr/local/include/opencv4
   OBJECT_DIR = CMakeFiles/OpenCV_Project.dir
@@ -94,7 +108,7 @@ build CMakeFiles/OpenCV_Project.dir/digitrecognizer.cpp.o: CXX_COMPILER__OpenCV_
 #############################################
 # Link the executable OpenCV_Project
 
-build OpenCV_Project: CXX_EXECUTABLE_LINKER__OpenCV_Project_Debug CMakeFiles/OpenCV_Project.dir/main.cpp.o CMakeFiles/OpenCV_Project.dir/digitrecognizer.cpp.o | /usr/local/lib/libopencv_gapi.4.5.5.dylib /usr/local/lib/libopencv_highgui.4.5.5.dylib /usr/local/lib/libopencv_ml.4.5.5.dylib /usr/local/lib/libopencv_objdetect.4.5.5.dylib /usr/local/lib/libopencv_photo.4.5.5.dylib /usr/local/lib/libopencv_stitching.4.5.5.dylib /usr/local/lib/libopencv_video.4.5.5.dylib /usr/local/lib/libopencv_videoio.4.5.5.dylib /usr/local/lib/libopencv_imgcodecs.4.5.5.dylib /usr/local/lib/libopencv_dnn.4.5.5.dylib /usr/local/lib/libopencv_calib3d.4.5.5.dylib /usr/local/lib/libopencv_features2d.4.5.5.dylib /usr/local/lib/libopencv_flann.4.5.5.dylib /usr/local/lib/libopencv_imgproc.4.5.5.dylib /usr/local/lib/libopencv_core.4.5.5.dylib
+build OpenCV_Project: CXX_EXECUTABLE_LINKER__OpenCV_Project_Debug CMakeFiles/OpenCV_Project.dir/main.cpp.o CMakeFiles/OpenCV_Project.dir/Image.cpp.o CMakeFiles/OpenCV_Project.dir/OCR.cpp.o CMakeFiles/OpenCV_Project.dir/Sudoku.cpp.o | /usr/local/lib/libopencv_gapi.4.5.5.dylib /usr/local/lib/libopencv_highgui.4.5.5.dylib /usr/local/lib/libopencv_ml.4.5.5.dylib /usr/local/lib/libopencv_objdetect.4.5.5.dylib /usr/local/lib/libopencv_photo.4.5.5.dylib /usr/local/lib/libopencv_stitching.4.5.5.dylib /usr/local/lib/libopencv_video.4.5.5.dylib /usr/local/lib/libopencv_videoio.4.5.5.dylib /usr/local/lib/libopencv_imgcodecs.4.5.5.dylib /usr/local/lib/libopencv_dnn.4.5.5.dylib /usr/local/lib/libopencv_calib3d.4.5.5.dylib /usr/local/lib/libopencv_features2d.4.5.5.dylib /usr/local/lib/libopencv_flann.4.5.5.dylib /usr/local/lib/libopencv_imgproc.4.5.5.dylib /usr/local/lib/libopencv_core.4.5.5.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libopencv_gapi.4.5.5.dylib  /usr/local/lib/libopencv_highgui.4.5.5.dylib  /usr/local/lib/libopencv_ml.4.5.5.dylib  /usr/local/lib/libopencv_objdetect.4.5.5.dylib  /usr/local/lib/libopencv_photo.4.5.5.dylib  /usr/local/lib/libopencv_stitching.4.5.5.dylib  /usr/local/lib/libopencv_video.4.5.5.dylib  /usr/local/lib/libopencv_videoio.4.5.5.dylib  /usr/local/lib/libopencv_imgcodecs.4.5.5.dylib  /usr/local/lib/libopencv_dnn.4.5.5.dylib  /usr/local/lib/libopencv_calib3d.4.5.5.dylib  /usr/local/lib/libopencv_features2d.4.5.5.dylib  /usr/local/lib/libopencv_flann.4.5.5.dylib  /usr/local/lib/libopencv_imgproc.4.5.5.dylib  /usr/local/lib/libopencv_core.4.5.5.dylib
   OBJECT_DIR = CMakeFiles/OpenCV_Project.dir
